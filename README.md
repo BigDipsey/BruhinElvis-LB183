@@ -51,3 +51,7 @@ Sicherheitslücken können in verschiedenen Interpretern auftreten, wenn bestimm
 - **JavaScript-Injections:** Angreifer könnten auf Benutzerdaten zugreifen und somit an persönliche Informationen gelangen oder ganze Scripts ausführen.
 Das Cross-Site Scripting (XSS) ist wenn der Angreifer ein solches Script ausgeführt hat und auf informationen zugreiffen kann und weiteren schädlichen Code auf dem Browser einer anderen Person Installieren kann.
 - **SQL-Injections:** Angreifer könnten auf Datenbanken zugreifen, befehle durchführen, Daten abrufen und diese sogar ändern oder löschen, was die Integrität der Daten verletzt.
+
+In diesem Fall habe ich eine SQL-Injection durchgeführt, wobei es nicht wichtig ist, was im Passwortfeld steht, solange ich 'administrator' als Nutzernamen eingebe. Das funktioniert, weil SQL-Befehle typischerweise mit einem Apostroph ' enden. Durch das Einfügen eines zusätzlichen Apostrophs am Ende des Nutzernamens und anschließendes Hinzufügen eines SQL-Kommentarzeichens (--), wird der restliche Teil der SQL-Abfrage auskommentier. Somit wird der Authentifizierungsprozess manipuliert, da die Überprüfung des Passworts umgangen wird.
+
+
