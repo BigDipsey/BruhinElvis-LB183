@@ -4,7 +4,7 @@
 Für dieses Handlungsziel habe ich ein Demonstrationsprojekt in der 'Insecure App' entwickelt, das eine Zwei-Faktor-Authentifizierung implementiert. Diese Implementierung nutzt die Google Authenticator-App als zweiten Faktor. Es wurden Screenshots des Prozesses erstellt, die zeigen, wie die Authentifizierung funktioniert.
 
 ![Bild 1](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/ba42ba74-86e2-4ab6-92a6-f764d407b370)
-<img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a" style="height: 400;">
+<img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a" style="height: 700;">
 <img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983" width="300">
 
 
