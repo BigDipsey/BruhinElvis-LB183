@@ -3,7 +3,7 @@
 ## Einleitung:
 In diesem Portfolio werde ich über Cybersecurity aus den Perspektiven eines Angreifers und eines defensiven Programmierers reden. Ich werde auch bekannte Cybersecurity-Bedrohungen aufzeigen und wie man diese mit bekannten Methoden zum größten Teil unschädlich machen kann.
 
-## Aktuelle Bedrohungen
+## Aktuelle Bedrohungen HZ1
 
 ### Phishing
 **Was ist Phishing?**
@@ -39,6 +39,10 @@ Bei einem DDoS-Angriff senden viele Computer gleichzeitig Anfragen an einen Serv
 - Gute Netzwerksicherheit und Überwachung.
 - Netzverkehr filtern.
 
+
+## Beurteilung Artefakt
+Ich finde ich habe das Handlungsziel gut erfüllt, indem ich versucht habe die gänigsten Bedrohungen zu beschreiben konnte ich auch etwas über weitere Gegenmassnahmen lernen, die ich nicht auch schon selbst im Privaten, davor schon gebraucht habe.
+
 ## Sicherheitslücken
 ### JavaScript-Injections und SQL-Injections
 
@@ -56,6 +60,19 @@ https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453
 
 ## Authentifizierung und Autorisierung
 
+### Zwei-Faktor Authentifizierung
+In der Insecure App gibt es eine Zwei-Faktor-Authentifizierung. Das bedeutet, dass der Benutzer bei der Zwei-Faktor-Authentifizierung zusätzlich eine zweite Methode benötigt, um zu zeigen, dass er der Inhaber des Kontos ist. Dazu verwendet man hier die Google Authenticator-App auf dem Handy.
+![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/ba42ba74-86e2-4ab6-92a6-f764d407b370)
+![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a)
+![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983)
+
+
+
+ 
+
+
+## Sicherheitsrelevante Aspekte bei Entwurf
+
 ### Hashing
 Zuerst ist es wichtig, das Erlangen der Passwörter durch Angreifer zu erschweren. Dies erreicht man, indem man die Passwörter vor dem Speichern hasht. Durch das Hashing müssen Angreifer einen größeren Aufwand betreiben, um das Passwort zu entschlüsseln. Außerdem wird es für Mitarbeiter mit schlechten Absichten schwieriger, das Passwort zu missbrauchen und sich als ein anderer Nutzer auszugeben.
 
@@ -64,14 +81,5 @@ Viele Systeme verwenden zusätzlich zum Hashing einen sogenannten Salt. Dies bed
 
 ### Unsaubere API
 Anschließend ist es wichtig, dass Abfragen, die ausschließlich im eingeloggten Zustand erfolgen sollten, auch nur dann möglich sind. Bei einer unsauberen API-Implementierung kann es vorkommen, dass zwar ein Login erforderlich ist, dieser aber nicht effektiv genutzt wird. Angreifer könnten in solchen Fällen auf bestimmte Abfragen zugreifen, ohne dass sie in einen Account eingeloggt sind. Dies stellt ein erhebliches Sicherheitsrisiko dar.
-
-### Zwei-Faktor Authentifizierung
-In der Insecure App gibt es eine Zwei-Faktor-Authentifizierung. Das bedeutet, dass der Benutzer bei der Zwei-Faktor-Authentifizierung zusätzlich eine zweite Methode benötigt, um zu zeigen, dass er der Inhaber des Kontos ist. Dazu verwendet man hier die Google Authenticator-App auf dem Handy.
-![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/ba42ba74-86e2-4ab6-92a6-f764d407b370)
-![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a)
-![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983)
-
-
-## Sicherheitsrelevante Aspekte bei Entwurf
 
 ## Auditing und Logging
