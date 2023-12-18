@@ -52,9 +52,15 @@ Das Cross-Site Scripting (XSS) ist, wenn der Angreifer ein solches Script ausgef
 
 In diesem Fall habe ich eine SQL-Injection durchgeführt, wobei es nicht wichtig ist, was im Passwortfeld steht, solange ich 'administrator' als Nutzernamen eingebe. Das funktioniert, weil SQL-Befehle typischerweise mit einem Apostroph ' enden. Durch das Einfügen eines zusätzlichen Apostrophs am Ende des Nutzernamens und anschließendes Hinzufügen eines SQL-Kommentarzeichens (--), wird der restliche Teil der SQL-Abfrage auskommentiert. Somit wird der Authentifizierungsprozess manipuliert, da die Überprüfung des Passworts umgangen wird.
 
-[GitHub-Link](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453d-8ad7-05dbca65b70f)
+https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453d-8ad7-05dbca65b70f
 
 ## Authentifizierung und Autorisierung
 
 ### Hashing
-Zuerst ist es wichtig, das Erlangen der Passwörter durch Angreifer zu erschweren. Dies erreicht man, indem man die Passwörter vor dem Speichern hasht. Durch das Hashing müssen Angreifer einen größeren Aufwand betreiben, um das Passwort zu entschlüsseln. Außerdem wird es für Mitarbeiter
+Zuerst ist es wichtig, das Erlangen der Passwörter durch Angreifer zu erschweren. Dies erreicht man, indem man die Passwörter vor dem Speichern hasht. Durch das Hashing müssen Angreifer einen größeren Aufwand betreiben, um das Passwort zu entschlüsseln. Außerdem wird es für Mitarbeiter mit schlechten Absichten schwieriger, das Passwort zu missbrauchen und sich als ein anderer Nutzer auszugeben.
+
+### Salting
+Viele Systeme verwenden zusätzlich zum Hashing einen sogenannten Salt. Dies bedeutet, dass beim Eingeben eines Passworts automatisch ein Zusatz hinzugefügt wird, bevor das Passwort gehasht wird. Dieser Zusatz, der Salt, erhöht die Sicherheit, da Angreifer, die den Salt nicht kennen (selbst wenn sie den Hash-Mechanismus kennen), größere Schwierigkeiten haben, das Passwort zu ermitteln.
+
+### Unsaubere API
+Anschließend ist es wichtig, dass Abfragen, die ausschließlich im eingeloggten Zustand erfolgen sollten, auch nur dann möglich sind. Bei einer unsauberen API-Implementierung kann es vorkommen, dass zwar ein Login erforderlich ist, dieser aber nicht effektiv genutzt wird. Angreifer könnten in solchen Fällen auf bestimmte Abfragen zugreifen, ohne dass sie in einen Account eingeloggt sind. Dies stellt ein erhebliches Sicherheitsrisiko dar.
