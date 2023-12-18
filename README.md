@@ -64,3 +64,9 @@ Viele Systeme verwenden zusätzlich zum Hashing einen sogenannten Salt. Dies bed
 
 ### Unsaubere API
 Anschließend ist es wichtig, dass Abfragen, die ausschließlich im eingeloggten Zustand erfolgen sollten, auch nur dann möglich sind. Bei einer unsauberen API-Implementierung kann es vorkommen, dass zwar ein Login erforderlich ist, dieser aber nicht effektiv genutzt wird. Angreifer könnten in solchen Fällen auf bestimmte Abfragen zugreifen, ohne dass sie in einen Account eingeloggt sind. Dies stellt ein erhebliches Sicherheitsrisiko dar.
+
+### Zwei-Faktor Authentifizierung
+
+## Sicherheitsrelevante Aspekte bei Entwurf
+
+## Auditing und Logging
