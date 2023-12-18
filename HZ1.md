@@ -4,7 +4,7 @@
 **Was ist Phishing?**
 Phishing ist, wenn Betrüger sich als vertrauliche Person oder Unternehmen ausgeben, um an private Daten zu kommen. Das machen sie meistens durch falsche E-Mails oder Nachrichten.
 
-**Gegenmaßnahmen**
+**Gegenmassnahmen**
 - Vorsichtiger Umgang mit E-Mails von unbekannten Absendern.
 - Klicke nicht auf Links oder Anhänge in verdächtigen Nachrichten.
 - Überprüfung von der E-Mail-Adresse auf komische Endungen.
