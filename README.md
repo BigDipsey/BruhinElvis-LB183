@@ -64,7 +64,8 @@ https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453
 In der Insecure App gibt es eine Zwei-Faktor-Authentifizierung. Das bedeutet, dass der Benutzer bei der Zwei-Faktor-Authentifizierung zusätzlich eine zweite Methode benötigt, um zu zeigen, dass er der Inhaber des Kontos ist. Dazu verwendet man hier die Google Authenticator-App auf dem Handy.
 ![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/ba42ba74-86e2-4ab6-92a6-f764d407b370)
 ![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a)
-![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983)
+<img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983" width="300">
+
 
 
 
