@@ -47,4 +47,4 @@ Das Handlungsziel wurde erreicht, indem ich in meinem Artefakt die gängigsten C
 Das Artefakt ist eine Zusammenfassung der aktuellsten Bedrohungen im Bereich der Cybersecurity. Es beinhaltet Begriffe und Beispiele für Phishing, Malware, Ransomware und DDoS-Angriffe sowie effektive Gegenmassnahmen.
 
 ## Kritische Beurteilung
-Aus einer Kritischen Perspektive aus habe ich das Hadnlungsziel erreicht. Ich habe die Bedrohungen aufgelistet und gegenmassnahmen für diese aufzeigen können.
+Aus einer Kritischen Perspektive aus habe ich das Hadnlungsziel erreicht. Ich habe die Bedrohungen aufgelistet und gegenmassnahmen für diese aufzeigen können. Jedoch ist es wichtig zu beachten das es noch weitere Bedrohungen gibt und man auch für diese Lösungsvorschläge haben muss, wenn ein solcher Fall eintritt.
