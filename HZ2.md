@@ -13,4 +13,4 @@ Das Handlungsziel wurde erreicht, indem ich eine Sicherheitslücke erkannt habe 
 Das Artefakt zeigt wie ich eine SQL Injection ausführe und zu einem Admin gemacht werde so muss ich als Angreifer das Passwort nicht kennen.
 
 ### Kritische Beurteilung
-Dieses Handlungsziel wurde gut erreicht da ich jeweils einen Weg gezeigt habe mich einzuschleussen und auf der kehr seite wie ich dieses Problem lösen kann.
+Dieses Handlungsziel wurde gut erreicht da ich jeweils einen Weg gezeigt habe mich einzuschleussen und auf der kehr seite wie ich dieses Problem lösen kann. Es ist jedoch wichtig zu beachten das es noch weitere Sicherheitslücken gibt und auch diese beim Programmieren bedenken muss, zum Beispiel Cross-Site Scripting (XSS) muss in solchen Sitationen auch bedacht werden. Diese können ein genau so grosses Risiko für Nutzer darstellen wie SQL-Injections
