@@ -67,10 +67,10 @@ namespace M183.Controllers
 
 
 ### Nachweis der Zielerreichung
-Durch das hinzufügen des Authentifizierung Mechanismus und der Dokumentation des Authentifizierungsprozesses in der Insecure App habe ich gezeigt, wie man eine Zwei-Faktor-Authentifizierung implementieren kann. Die Screenshots dienen als Nachweis.
+Durch das Hinzufügen des Authentifizierungsmechanismus und die Dokumentation des Authentifizierungsprozesses in der Insecure App habe ich gezeigt, wie man eine Zwei-Faktor-Authentifizierung implementieren kann. Die Screenshots dienen als Nachweis.
 
 ### Erklärung des Artefakts
-Integration von Zwei-Faktor-Authentifizierung in einer Webanwendung. Was zu einer zusätzlichen sicherheit des Benutzerkontos führt.
+Integration von Zwei-Faktor-Authentifizierung in einer Webanwendung. Was zu einer zusätzlichen Sicherheit des Benutzerkontos führt.
 
 ### Kritische Beurteilung
-Ich habe das Handlungsziel abgeschlossen, zuerst verstand ich den Grund wieso man das tuet nicht den schlussendlich ist alles Digital und die 2 Ebene des Schutzes ist nicht wie ein Physikalischer Schlüssel nach etwas rechere fand ich jedoch heraus das es dem Angreifer auch wie bei einem Echten schlüssel schwiriger gemacht wird diesen zu fälschen.
+Ich habe das Handlungsziel abgeschlossen. Ich habe es hier mit dem JWT gezeigt, jedoch kann man auch andere Verschlüsselungsmechanismen verwenden. Bei den Mechanismen muss man immer darauf achten, dass diese wirklich sicher sind und um das sicherer zu machen, kann man das Passwort noch salten.
