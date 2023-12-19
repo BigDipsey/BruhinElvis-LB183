@@ -1,5 +1,5 @@
 
-# Handlungsziel 4: Sicherheitsrelevante Aspekte Berücksichtigen
+# Handlungsziel 4: Sicherheitsrelevante Aspekte berücksichtigen
 
 Artefakt:  
 private string validateNewPasswort(string newPassword)
