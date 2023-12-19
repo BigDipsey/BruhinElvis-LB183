@@ -1,4 +1,30 @@
-# Handlungsziel 5: Auditing und Logging
+# Handlungsziel 5: Auditing und Loggin
+```C#
+public ActionResult<User> Login(LoginDto request)
+        {
+            if (request == null || request.Username.IsNullOrEmpty() || request.Password.IsNullOrEmpty())
+            {
+                return BadRequest();
+            }
+            string username = request.Username;
+            string passwordHash = MD5Helper.ComputeMD5Hash(request.Password);
+
+            User? user = _context.Users
+                .Where(u => u.Username == username)
+                .Where(u => u.Password == passwordHash)
+                .FirstOrDefault();
+
+            if (user == null)
+            {
+                _logger.LogWarning($"login failed for user '{request.Username}'");
+                return Unauthorized("login failed");
+            }
+
+            _logger.LogInformation($"login successful for user '{request.Username}'");
+            return Ok(CreateToken(user));
+        }
+```
+
 
 ## Auswahl und Beschreibung des Artefakts
 Im Rahmen dieses Handlungsziels habe ich einen Screenshot des Codes erstellt, welcher die Funktionalität des Auditing unn Logging zeigt.
