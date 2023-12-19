@@ -2,6 +2,17 @@
 
 https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453d-8ad7-05dbca65b70f
 
+Mit diesem Code kann ich verhindern das der Nutzer (') nicht als befehl eingeben kann. So wird das Statement sozusagen wie Vobereitet.
+
+Code von ChatGPT
+```C#
+string sql = "SELECT * FROM Users WHERE username = @username AND password = @password";
+SqlCommand command = new SqlCommand(sql, yourConnection);
+command.Parameters.AddWithValue("@username", request.Username);
+command.Parameters.AddWithValue("@password", MD5Helper.ComputeMD5Hash(request.Password));
+
+```
+
 
 ### Auswahl und Beschreibung des Artefakts
 Im Rahmen dieses Handlungsziels habe ich ein Video zu einer SQL Injection gemacht. Mein Artefakt zeigt wie ein Angreifer eine SQL Injection ausführen könnte um sich zugriff auf die Website zu verschaffen. 
