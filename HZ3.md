@@ -7,7 +7,7 @@ Für dieses Handlungsziel habe ich die Authentifizierung und Autorisierung in de
 <img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a" style="height: 700;">
 <img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983" width="300">
 
-Code:
+Ein Teil des Codes:
 ```C#
 namespace M183.Controllers
 {
