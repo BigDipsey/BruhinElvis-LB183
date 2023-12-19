@@ -2,6 +2,7 @@
 # Handlungsziel 4: Sicherheitsrelevante Aspekte berücksichtigen
 
 Artefakt:  
+```
 private string validateNewPasswort(string newPassword)
         {
             
@@ -37,7 +38,7 @@ private string validateNewPasswort(string newPassword)
             }
             return "";
         }
-
+```
 
 
 ### Auswahl und Beschreibung des Artefakts
