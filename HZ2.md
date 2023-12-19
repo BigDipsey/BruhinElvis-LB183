@@ -1,6 +1,6 @@
 # Handlungsziel 2: Erkennen und Schließen von Sicherheitslücken
 
-Artefakt: https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453d-8ad7-05dbca65b70f
+https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/325ddb20-7adf-453d-8ad7-05dbca65b70f
 
 
 ### Auswahl und Beschreibung des Artefakts
