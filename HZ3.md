@@ -1,4 +1,4 @@
-## Handlungsziel 3: Authentifizierung und Autorisierung
+# Handlungsziel 3: Authentifizierung und Autorisierung
 
 ### Auswahl und Beschreibung des Artefakts
 Für dieses Handlungsziel habe ich die Authentifizierung und Autorisierung in der Insecure App gewählt, das eine Zwei-Faktor-Authentifizierung implementiert. Diese Implementierung nutzt die Google Authenticator-App als zweiten Faktor. Es wurden Screenshots des Prozesses erstellt, die zeigen, wie die Authentifizierung funktioniert.
