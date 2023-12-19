@@ -13,7 +13,7 @@ Phishing ist, wenn Betrüger sich als vertrauliche Person oder Unternehmen ausge
 **Was ist Malware?**
 Malware ist eine bösartige Software, die Schaden anrichten kann, wie Viren oder Trojaner.
 
-**Gegenmaßnahmen**
+**Gegenmassnahmen**
 - Ein Antivirenprogramm nutzen.
 - Keine Dateien aus unsicheren Quellen herunterladen.
 - Betriebssysteme und Software auf neuesten Stand halten.
@@ -22,7 +22,7 @@ Malware ist eine bösartige Software, die Schaden anrichten kann, wie Viren oder
 **Was ist Ransomware?**
 Ransomware ist eine Art von Malware, die Dateien verschlüsselt und Lösegeld für das Entschlüsseln und Freigeben der Daten verlangt.
 
-**Gegenmaßnahmen**
+**Gegenmassnahmen**
 - Backups.
 - Betriebssysteme und Software auf neuesten Stand halten.
 
@@ -30,7 +30,7 @@ Ransomware ist eine Art von Malware, die Dateien verschlüsselt und Lösegeld f�
 **Was ist ein DDoS-Angriff?**
 Bei einem DDoS-Angriff senden viele Computer gleichzeitig Anfragen an einen Server, um ihn lahmzulegen.
 
-**Gegenmaßnahmen**
+**Gegenmassnahmen**
 - Gute Netzwerksicherheit und Überwachung.
 - Netzverkehr filtern.
 
