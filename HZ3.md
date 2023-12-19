@@ -7,6 +7,64 @@ Für dieses Handlungsziel habe ich die Authentifizierung und Autorisierung in de
 <img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/f3fc883b-b264-44a2-8995-4c465e6a4c1a" style="height: 700;">
 <img src="https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/7a3f7af9-d988-448d-8c2e-794d94de7983" width="300">
 
+Code:
+```C#
+namespace M183.Controllers
+{
+    [Route("api/[controller]")]
+    [Authorize]
+    [ApiController]
+    public class AuthController : ControllerBase
+    {
+        private readonly NewsAppContext _context;
+        private readonly IConfiguration _configuration;
+        private readonly IUserService _userService;
+
+        public AuthController(NewsAppContext context, IConfiguration configuration, IUserService userService)
+        {
+            _context = context;
+            _configuration = configuration;
+            _userService = userService;
+        }
+
+        /// <summary>
+        /// Enable 2FA for user using password and username
+        /// </summary>
+        /// <response code="200">Login successfull</response>
+        /// <response code="400">Bad request</response>
+        /// <response code="401">Login failed</response>
+        [HttpPost]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(404)]
+        public ActionResult<Auth2FADto> Enable2FA()
+        {
+            var user = _context.Users.Find(_userService.GetUserId());
+            if (user == null)
+            {
+                return NotFound(string.Format("User {0} not found", _userService.GetUsername()));
+            }
+            {
+                var secretKey = Guid.NewGuid().ToString().Replace("-", "").Substring(0, 10);
+                string userUniqueKey = user.Username + secretKey;
+                string issuer = _configuration.GetSection("Jwt:Issuer").Value!;
+                TwoFactorAuthenticator authenticator = new TwoFactorAuthenticator();
+                SetupCode setupInfo = authenticator.GenerateSetupCode(issuer, user.Username, userUniqueKey, false, 3);
+
+                user.SecretKey2FA = secretKey;
+                _context.Update(user);
+                _context.SaveChanges();
+
+                Auth2FADto auth2FADto = new Auth2FADto();
+                auth2FADto.QrCodeSetupImageUrl = setupInfo.QrCodeSetupImageUrl;
+
+                return Ok(auth2FADto);
+            }
+        }
+    }
+}
+
+```
+
 
 ### Nachweis der Zielerreichung
 Durch das hinzufügen des Authentifizierung Mechanismus und der Dokumentation des Authentifizierungsprozesses in der Insecure App habe ich gezeigt, wie man eine Zwei-Faktor-Authentifizierung implementieren kann. Die Screenshots dienen als Nachweis.
