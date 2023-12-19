@@ -14,4 +14,4 @@ Das Handlungsziel wurde erreicht, indem ich demonstrierte, dass das Passwort bes
 Das Artefakt zeigt einen Codeabschnitt, der die Erstellung allzu einfacher Passwörter verhindert, wie beispielsweise "1234". Es sind nur Passwörter zulässig, die mindestens acht Zeichen lang sind und mindestens einen Großbuchstaben, eine Ziffer und ein Sonderzeichen enthalten.
 
 ### Kritische Beurteilung
-Dieses Handlungsziel wurde erfolgreich umgesetzt, da ich einen wichtigen Faktor hervorgehoben habe: den menschlichen Faktor. Es sollte nie unterschätzt werden, welche unerwarteten Lösungswege Nutzer finden könnten.
+Dieses Handlungsziel wurde erfolgreich umgesetzt, da ich einen wichtigen Faktor hervorgehoben habe: den menschlichen Faktor. Es sollte nie unterschätzt werden, welche unerwarteten wege Nutzer finden können um ein Simples Passwort zu erstellen.
