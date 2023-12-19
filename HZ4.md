@@ -47,7 +47,7 @@ Im Rahmen dieses Handlungsziels habe ich einen Screenshot des Codes erstellt, we
 Das Handlungsziel wurde erreicht, indem ich demonstrierte, dass das Passwort bestimmte Anforderungen erfüllen muss, bevor es akzeptiert und gespeichert werden kann.
 
 ### Erklärung des Artefakts
-Das Artefakt zeigt einen Codeabschnitt, der die Erstellung allzu einfacher Passwörter verhindert, wie beispielsweise "1234". Es sind nur Passwörter zulässig, die mindestens acht Zeichen lang sind und mindestens einen Großbuchstaben, eine Ziffer und ein Sonderzeichen enthalten.
+Das Artefakt zeigt einen Codeabschnitt, der die Erstellung allzu einfacher Passwörter verhindert, wie beispielsweise "1234". Es sind nur Passwörter zulässig, die mindestens acht Zeichen lang sind und mindestens einen Grossbuchstaben, eine Ziffer und ein Sonderzeichen enthalten.
 
 ### Kritische Beurteilung
-Dieses Handlungsziel wurde erfolgreich umgesetzt, da ich einen wichtigen Faktor hervorgehoben habe: den menschlichen Faktor. Es sollte nie unterschätzt werden, welche unerwarteten wege Nutzer finden können um ein Simples Passwort zu erstellen.
+Dieses Handlungsziel wurde erfolgreich umgesetzt, da ich einen wichtigen Faktor hervorgehoben habe: den menschlichen Faktor. Man sollte jedoch weitere Schritte in der Implementierung hinzufügen und auf gewisse Methoden zurückgreifen, um es Angreifern schwerer zu machen wie Hashing, Salting und Zwei-Faktor-Authentifikation.
