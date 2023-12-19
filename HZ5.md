@@ -24,6 +24,13 @@ public ActionResult<User> Login(LoginDto request)
             return Ok(CreateToken(user));
         }
 ```
+Login fehlgeschlagen
+![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/e06cc59c-b203-444f-8252-7b966d60ea22)
+
+Login Erfolgreich
+![image](https://github.com/BigDipsey/BruhinElvis-LB183/assets/89131634/019b6419-5e77-4b4c-9ea4-8d178e1f4082)
+
+
 
 
 ## Auswahl und Beschreibung des Artefakts
